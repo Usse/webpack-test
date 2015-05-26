@@ -1,0 +1,25 @@
+
+
+body { background:#999;}
+
+
+:local(ul) {
+	width:208px;
+	margin:0;
+	padding:0;
+	list-style-type: none;
+	border:2px solid black;
+}
+
+:local(li) {
+	width:200px; 
+	text-align:center; 
+	border:4px solid black;
+	cursor: pointer;
+	color:white;
+	padding:10px 0;
+	background-color:black;
+	transition:background-color 250ms;
+}
+
+
